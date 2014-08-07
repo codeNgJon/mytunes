@@ -20,7 +20,6 @@ var SongQueue = Songs.extend({
 
   enqueue: function(song){
     this.add(song);
-
   },
 
   playFirst: function(){
