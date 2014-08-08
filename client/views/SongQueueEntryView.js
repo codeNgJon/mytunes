@@ -5,7 +5,7 @@ var SongQueueEntryView = Backbone.View.extend({
 
 
   render: function(){
-    return this.$el.html(this.template(this.model.attributes));
+    return this.$el.addClass('songItem').html(this.template(this.model.attributes));
   }
 
 

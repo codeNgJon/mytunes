@@ -1,0 +1,43 @@
+body {
+  font-family: helvetica;
+  background: url('clouds.jpg');
+}
+.appView {
+  margin: auto;
+  width: 50%;
+  font-size: 20px;
+  padding: 10px;
+  opacity: .80;
+
+}
+
+.appView .text {
+  opacity: 1.0;
+}
+
+.songQueue {
+  background-color: white;
+  margin: auto;
+  border: 1px solid black;
+  width: 50%;
+  text-align:center;
+}
+
+.songQueue .th{
+  text-align: center;
+}
+
+.songItem {
+}
+
+audio {
+    margin-left: 225px;
+
+}
+.library {
+  width:50%;
+  background-color: white;
+  margin:auto;
+  border: 1px solid black;
+  padding:10px;
+}
